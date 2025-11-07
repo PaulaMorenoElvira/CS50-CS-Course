@@ -19,25 +19,25 @@ Problem Sets típicos: “Hello, world”, pirámides de bloques (Mario), valida
 
 ---
 
-### **Semana 2 – Arrays y Cadenas**  
+### **Semana 2 – Arrays y Cadenas – C**  
 Conceptos de arrays, strings, argumentos de línea de comandos en C.  
 Problem Sets: Manejo de cadenas, arrays de datos, cifrados simples.
 
 ---
 
-### **Semana 3 – Algoritmos**  
+### **Semana 3 – Algoritmos – C**  
 Algoritmos de búsqueda (lineal, binaria), ordenación (bubble, selection, insertion, etc.), análisis de eficiencia.  
 Objetivo: Comprender cómo pensar algorítmicamente y elegir estructuras/personas adecuadas.
 
 ---
 
-### **Semana 4 – Memoria**  
+### **Semana 4 – Memoria – C**  
 Conceptos de punteros, memoria dinámica, asignación, desasignación, memoria estática vs dinámica, fugas de memoria.  
 Problem Sets: Manejo de memoria al reservar matrices, liberar memoria, estructuras enlazadas, etc.
 
 ---
 
-### **Semana 5 – Estructuras de Datos**  
+### **Semana 5 – Estructuras de Datos – C**  
 Listas enlazadas, tablas hash, árboles binarios, tries, grafos básicos.  
 Objetivo: Usar estructuras que permitan almacenar y acceder a datos eficientemente.
 
