@@ -1,7 +1,7 @@
 # Harvard CS50’s Introduction to Computer Science (CS50x)
 
 Este repositorio contiene descripciones de los “problem sets” y el proyecto final realizados durante el curso **CS50’s Introduction to Computer Science** de Harvard University.  
-El curso explora los fundamentos de la informática y la programación, abarcando desde conceptos básicos hasta desarrollo web. :contentReference[oaicite:2]{index=2}
+El curso explora los fundamentos de la informática y la programación, abarcando desde conceptos básicos hasta desarrollo web. 
 
 ---
 
@@ -68,7 +68,7 @@ Problem Sets: Crear una aplicación web completa (login, registro, base de datos
 ---
 
 ### **(Opcional) Semana 10 – Proyecto Final / Extensión**  
-El curso culmina con un proyecto libre donde el estudiante debe diseñar e implementar un software propio que integre los conocimientos adquiridos. :contentReference[oaicite:8]{index=8}  
+El curso culmina con un proyecto libre donde el estudiante debe diseñar e implementar un software propio que integre los conocimientos adquiridos.
 El proyecto permite elegir el lenguaje o stack que prefieras, siempre que aplique lo aprendido.
 
 ---
