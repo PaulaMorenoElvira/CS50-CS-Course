@@ -1,0 +1,21 @@
+
+In this project I used the following tags:
+html
+head
+title
+body
+footer
+div
+section
+nav
+header
+p
+ul
+li
+a
+
+Bootstrap implemented:
+Features : A title with a paragraph of text beneath the heading.
+
+JavaScript implemented:
+dark-mode
