@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Choose category</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Choose a category</h1>
+
+  {% if categories %}
+    <div>
+      {% for category in categories %}
+        <form action="/study" method="post" style="display:inline;">
+          <input type="hidden" name="category" value="{{ category }}">
+          <button type="submit" class="select-category">{{ category }}</button>
+        </form>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>There are no categories yet. Add vocabulary first.</p>
+  {% endif %}
+
+  <br><a href="/" class="back-link">Back</a>
+</body>
+</html>

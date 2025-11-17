@@ -1,0 +1,206 @@
+/* Estilo general */
+body {
+  font-family: "Georgia", Arial;
+  background-color: #CAE3E8;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 200px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Imagen de portada */
+.main-image {
+  width: 60%;
+  max-width: 500px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 15px;
+
+}
+
+/* Título */
+h1 {
+  color: #1F5093;
+  margin: 50px auto;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+/* Botones principales */
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #5297D2;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #1F5093;
+}
+
+/* Botones para guardar o estudiar vocabulario */
+.specialbutton {
+  display: inline-block;
+  padding: 15px 15px;
+  margin: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #5297D2;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.specialbutton:hover {
+  background-color: #4884B6;
+}
+
+
+/* Link to go back  to main page*/
+.back-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #1F5CAF;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  background-color: #073E77;
+}
+
+/* Link to study (after choosing category)*/
+.study-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #2F43B5;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.study-link:hover {
+  background-color: #3B0F57;
+}
+
+
+/* Appearance of category selection and adding new vocab*/
+form {
+  display: flex;
+  flex-direction: column;   /* una columna */
+  align-items: center;      /* centra los elementos */
+  gap: 20px;                /* espacio igual entre elementos */
+}
+
+.input-text {
+  width: 60%;
+  max-width: 400px;
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+.select-category {
+  background-color: #6399BD;
+  color: white;
+  border: none;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px 20px;
+  font-size: 16px;
+}
+
+.select-category:hover {
+  background-color: #2A5C8F;
+}
+
+/* Estilo de las flash cards*/
+.card {
+  background-color: #6399BD;
+  color: white;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Estilo de los botones para cambiar a aleman o español */
+.toggle-buttons {
+      background-color: #47A0E4;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin: 5px;
+      margin-bottom: 60px;
+      font-size: 16px;
+    }
+
+.toggle-buttons:hover {
+  background-color: #2A5C8F;
+}
+
+
+/* Estilo de la tabla de editar palabras */
+
+.styled-table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+}
+
+/* Estilo del encabezado de la tabla */
+.styled-table th {
+  background-color: #5297D2;
+  color: white;
+  padding: 10px 15px;
+  border: 1px solid #2A5C8F;
+  text-align: left;
+}
+
+/* Estilo de las celdas de la tabla */
+.styled-table td {
+  background-color: #F0F0F2;
+  padding: 10px 15px;
+  border: 1px solid #2A5C8F;
+  text-align: center;
+}
+
+/* Boton de eliminar una palabra */
+.delete-button {
+  padding: 10px 10px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #CF2906;
+  border: none;
+  border-radius: 8px;
+}
+
+.delete-button:hover {
+  background-color: #801504;
+}

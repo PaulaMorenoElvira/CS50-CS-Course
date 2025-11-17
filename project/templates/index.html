@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Main Page</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <img src="{{ url_for('static', filename='libros.jpg') }}" alt="Imagen de portada" class="main-image">
+    <h1>Let's learn German</h1>
+
+    <a href="/add" class="button">Add vocabulary</a>
+    <a href="/study" class="button">Study vocabulary</a>
+  </div>
+  <footer>
+    Paula Moreno Elvira - 2025
+  </footer>
+</body>
+</html>

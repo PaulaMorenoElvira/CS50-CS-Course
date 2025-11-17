@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Vocabulary</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>{{ category }}</h1>
+
+  <!-- Botones para mostrar un lado u otro /(todas a la vez)-->
+  <div>
+    <button onclick="showGerman()" class="toggle-buttons">Show German</button>
+    <button onclick="showTranslation()" class="toggle-buttons">Show Translation</button>
+  </div>
+
+  <!-- Botones para girar la tarjeta individualmenteo -->
+  {% if words %}
+    <div id="cards-container" style="display:flex; flex-wrap:wrap; justify-content:center;">
+      {% for word in words %}
+        <div class="card"
+             data-german="{{ word[1] |e  }}"
+             data-translation="{{ word[2] |e  }}"
+             onclick="flipCard(this)">
+          {{ word[1] }}
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>There are no words in this category yet.</p>
+  {% endif %}
+
+  <br><a href="/study" class="back-link"> Other categories</a>
+  <a href="/" class="back-link">Home</a>
+
+  <script>
+    // Gira individualmente una carta
+    function flipCard(card) {
+      const current = card.textContent.trim();
+      const german = card.dataset.german;
+      const translation = card.dataset.translation;
+
+      if (current == german) {
+        card.textContent = translation;
+      } else {
+        card.textContent = german;
+      }
+    }
+
+    // Muestra todas las cartas en alemán
+    function showGerman() {
+      document.querySelectorAll('.card').forEach(card => {
+        card.textContent = card.dataset.german;
+      });
+    }
+
+    // Muestra todas las cartas en traducción
+    function showTranslation() {
+      document.querySelectorAll('.card').forEach(card => {
+        card.textContent = card.dataset.translation;
+      });
+    }
+  </script>
+</body>
+</html>
