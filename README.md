@@ -67,9 +67,8 @@ Problem Sets: Crear una aplicación web completa (login, registro, base de datos
 
 ---
 
-### **(Opcional) Semana 10 – Proyecto Final / Extensión**  
-El curso culmina con un proyecto libre donde el estudiante debe diseñar e implementar un software propio que integre los conocimientos adquiridos.
-El proyecto permite elegir el lenguaje o stack que prefieras, siempre que aplique lo aprendido.
+### ** Semana 10 – Proyecto Final / Extensión**  
+Aplicación web para aprender alemán mediante flashcards, desarrollada con Flask, HTML, CSS y SQL. Permite al usuario añadir, estudiar, editar y eliminar vocabulario organizado por categorías.
 
 ---
 
