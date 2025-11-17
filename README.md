@@ -67,7 +67,7 @@ Problem Sets: Crear una aplicación web completa (login, registro, base de datos
 
 ---
 
-### ** Semana 10 – Proyecto Final / Extensión**  
+### **Semana 10 – Proyecto Final / Extensión**  
 Aplicación web para aprender alemán mediante flashcards, desarrollada con Flask, HTML, CSS y SQL. Permite al usuario añadir, estudiar, editar y eliminar vocabulario organizado por categorías.
 
 ---
